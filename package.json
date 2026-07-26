@@ -1,0 +1,22 @@
+{
+ "name": "whatsapp-clone-backend",
+ "version": "1.0.0",
+ "description": "WhatsApp Web Clone Backend with Latest Baileys",
+ "main": "index.js",
+ "type": "module",
+ "scripts": {
+ "start": "node index.js",
+ "dev": "nodemon index.js"
+ },
+ "dependencies": {
+ "@whiskeysockets/baileys": "^6.6.0",
+ "express": "^4.18.2",
+ "cors": "^2.8.5",
+ "qrcode": "^1.5.3",
+ "pino": "^8.14.0",
+ "pino-pretty": "^10.2.0"
+ },
+ "devDependencies": {
+ "nodemon": "^3.0.1"
+ }
+}
